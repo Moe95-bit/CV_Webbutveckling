@@ -1,0 +1,21 @@
+﻿@using CV_Webbutveckling.Models
+
+@{
+    var kontaktMobil  = MittCV.Kontakt[0];
+    var kontaktEpost  = MittCV.Kontakt[1];
+    var kontaktAdress  = MittCV.Kontakt[2];
+}
+
+@{
+    <div>
+        <br />
+        <center>
+            <h1>Kontakt Info</h1>
+        </center>
+        <br />
+        <h5><strong>Mobil: </strong>@kontaktMobil</h5>
+        <h5><strong>Epost: </strong>@kontaktEpost</h5>
+        <h5><strong>Adress: </strong>@kontaktAdress</h5>
+        <a href="https://www.linkedin.com/in/mohammad-sheikha-38a12713b/">Linked In</a>
+    </div>
+}

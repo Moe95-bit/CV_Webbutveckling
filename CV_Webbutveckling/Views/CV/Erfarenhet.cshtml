@@ -1,0 +1,32 @@
+﻿@using CV_Webbutveckling.Models
+
+@{
+    var securitas  = MittCV.Erfarenhet[0];
+    var nokas  = MittCV.Erfarenhet[1];
+    var iss  = MittCV.Erfarenhet[2];
+    var openInfra  = MittCV.Erfarenhet[3];
+}
+
+@{
+    <div>
+        <br />
+        <center>
+            <h1>Erfarenhet</h1>
+        </center>
+        <br />
+        <h3>Securitas AB | Maj 2016 - Dec 2016</h3>
+        <h6>@securitas</h6>
+
+        <br />
+        <h3>Nokas Security AB | Jan 2017 - Mars 2020</h3>
+        <h6>@nokas</h6>
+
+         <br />
+        <h3>ISS AB | Maj 2012 - Maj 2016</h3>
+        <h6>@iss</h6>
+
+         <br />
+        <h3>Open Infra | Juni 2021 - Augusti 2021 </h3>
+        <h6>@openInfra</h6>
+    </div>
+}
